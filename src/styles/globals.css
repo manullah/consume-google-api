@@ -1,0 +1,55 @@
+.own-calendar.mantine-Calendar-calendar,
+.own-calendar .mantine-DecadeLevel-decadeLevel,
+.own-calendar .mantine-Calendar-yearLevel,
+.own-calendar .mantine-Calendar-yearsList,
+.own-calendar .mantine-Calendar-monthLevel,
+.own-calendar .mantine-Calendar-monthsList,
+.own-calendar .mantine-Calendar-month {
+  width: 100%;
+}
+
+/* navigations */
+.own-calendar .mantine-Calendar-calendarHeader {
+  max-width: none;
+  margin-bottom: 0;
+  border: 0.0625rem solid #dee2e6;
+  border-bottom: 0;
+}
+
+/* navigation buttons */
+.own-calendar .mantine-Calendar-calendarHeaderLevel,
+.own-calendar .mantine-Calendar-calendarHeaderControl {
+  height: 60px;
+  align-items: center;
+  border-radius: 0;
+}
+.own-calendar .mantine-Calendar-calendarHeaderLevel {
+  border-left: 0;
+  border-right: 0;
+}
+
+/* weekday */
+.own-calendar .mantine-Calendar-weekday {
+  height: 50px;
+  border: 0.0625rem solid #dee2e6;
+  padding-bottom: 0;
+}
+
+/* days */
+.own-calendar .mantine-Calendar-yearsListCell,
+.own-calendar .mantine-Calendar-monthsListCell,
+.own-calendar .mantine-Calendar-monthCell {
+  border: 0.0625rem solid #dee2e6;
+}
+
+/* select buttons */
+.own-calendar .mantine-Calendar-pickerControl,
+.own-calendar .mantine-Calendar-day {
+  width: 100%;
+  min-height: 150px;
+  max-height: 150px;
+  /* height: fit-content; */
+  align-items: start;
+  border-radius: 0;
+  padding: 0;
+}

@@ -1,0 +1,1 @@
+export const PARAMS_CALENDAR_FORMAT_DATE = 'YYYY-MM-DDTHH:mm:ssZ';

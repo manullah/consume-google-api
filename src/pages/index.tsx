@@ -25,8 +25,8 @@ Page.getLayout = function getLayout(page: React.ReactElement) {
 
 export default Page;
 
-export const getServerSideProps: GetServerSideProps = async (ctx) => {
-  const session = await getServerSession(ctx.req, ctx.res, authOptions);
+export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
+  const session = await getServerSession(req, res, authOptions);
 
   if (session) {
     return {
